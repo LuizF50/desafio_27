@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url('./images/background.jpg'); /* Substitua pelo caminho correto da imagem */
+    background-size: cover; /* Garante que a imagem cubra toda a área da página */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    height: 100vh; /* Define a altura do body como 100% da altura da janela */
+}
+
+.container {
+    width: 50%; /* Reduz a largura do container */
+    max-width: 600px;
+    min-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente para destacar o conteúdo */
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 1.8em; /* Ajusta o tamanho do título */
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:first-child {
+    background-color: #4caf50; /* Botão verde */
+}
+
+.buttons button:last-child {
+    background-color: #f44336; /* Botão vermelho */
+}
+
+#resultado {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#detalhes {
+    text-align: left;
+    margin-top: 20px;
+}
